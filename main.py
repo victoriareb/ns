@@ -19,7 +19,7 @@ from fastapi import FastAPI, HTTPException, Response
 import httpx
 
 # app = FastAPI()
-UPSTREAM = "https://static.vecteezy.com/system/resources/previews/020/716/214/non_2x/icon-online-invoice-illustration-invoice-icon-free-png.png"
+UPSTREAM = "https://templates.invoicehome.com/invoice-template-us-neat-750px.png"
 
 @app.head("/image.png")
 async def head_image():
